@@ -20,6 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #eaebed;
+  color: #eaebed;
 }
 
 .counter-container {
@@ -36,5 +37,4 @@ body {
 }
 
 header {
-  color: #eaebed;
 }
