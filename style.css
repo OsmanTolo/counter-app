@@ -22,3 +22,15 @@ body {
   align-items: center;
   background-color: #eaebed;
 }
+
+.counter-container {
+  min-width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
+  padding: 15px 20px;
+  background: #244d61;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
