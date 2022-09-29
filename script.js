@@ -21,7 +21,9 @@ const decrementOutput = () => {
 
 const resetOutput = () => {
   counter = 0;
+  outputValue.innerHTML = counter;
 };
 
 increaseValue.addEventListener("click", incrementOutput);
 decreaseValue.addEventListener("click", decrementOutput);
+resetValue.addEventListener("click", resetOutput);
